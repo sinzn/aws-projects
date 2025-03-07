@@ -1,0 +1,59 @@
+<style>
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  padding: 0;
+  background-color: #030303;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.typewriter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typewriter p {
+  font-family: monospace;
+  font-size: 2rem;
+  margin-inline: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 1px solid;
+  animation: typing 3s steps(22) forwards, blink 1s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+</style>
+
+<div class="typewriter">
+  <div>
+    <p>Hello, World!...</p>
+  </div>
+</div>
